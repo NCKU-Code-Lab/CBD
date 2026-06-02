@@ -10,4 +10,4 @@
 (Gene_A Conditions/Gene_B-Issue ⬌ Gene_B-Concept/Strategy)
 ex:在喧囂的都市基地裡如何建立讓高齡者放鬆的空間?
 
-![fig2](../Docs/AI_consultant.fig2.png)
+![fig2](../Docs/AI_consultant_fig2.png)
