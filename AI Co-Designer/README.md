@@ -13,7 +13,7 @@
 **(四) 使用範例**
 
 進到 grasshopper 透過 Access Json 把 Json file 轉換為 Geometry 的範例
-![fig1](../Docs/AI_codesigner_fig1.png)
+![fig1](../Docs/AI_Codesigner_fig1.png)
 
 ChatGPT 產出的配置範例，以及轉換成 Grasshopper 後的初步配置範例。
-![fig2](../Docs/AI_codesigner_fig2.png)
+![fig2](../Docs/AI_Codesigner_fig2.png)
