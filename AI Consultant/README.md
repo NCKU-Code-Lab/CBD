@@ -20,6 +20,7 @@
 **(三) 使用者**：AI 知識庫的建構者
 
 **(四) 使用範例** : 如下圖所示，完整對話範例請見前面 workflow 說明。
+![fig1](../Docs/AI_consultant_fig1.png)
 
 ## Precedent DNA 介紹
 **(一) Precedent DNA** 是參考 Oxman & Oxman（1993；1994）提出的「設計故事模組（Design Story）」結構，以【issue－concept－form】的結構為思考起點而發展出的一套案例知識整理方法。
