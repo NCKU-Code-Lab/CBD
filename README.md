@@ -1,6 +1,9 @@
 # AI in Architecture: Building a Case-Based Knowledge System and Applying it in Design Practice
 賴芸蓁 Yun-Jhen Lai / 113-2 建築設計（七）
 
+## Project Overview
+![overview](./Docs/overview.png)
+
 ## Project Workflow
 ### Part 1. Establishing the AI Consultant
 #### Step 1 — Build the AI knowledge base
