@@ -1,0 +1,208 @@
+[
+  {
+    "Floor": "8F",
+    "Space Name": "芳療植栽花園",
+    "Type": "Outdoor",
+    "Area(m2)": 180,
+    "Semantic Tags": [
+      "自然通感節點"
+    ],
+    "Semantic Description": "與靜音陪伴室之間隔香草牆，空氣氣味可滲透，形成療癒氛圍"
+  },
+  {
+    "Floor": "8F",
+    "Space Name": "Tree Box（可觀下層，垂直種植）",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 40,
+    "Semantic Tags": [
+      "視覺串連",
+      "自然通感節點"
+    ],
+    "Semantic Description": "向下俯瞰 7F 綠井，形成視覺交錯的節點"
+  },
+  {
+    "Floor": "8F",
+    "Space Name": "靜音陪伴室",
+    "Type": "Indoor",
+    "Area(m2)": 100,
+    "Semantic Tags": [
+      "轉角穿透",
+      "自然通感節點"
+    ],
+    "Semantic Description": "靠近芳療植栽區，感受氣味與光線滲入"
+  },
+  {
+    "Floor": "8F",
+    "Space Name": "咖啡座＋迎賓緩衝",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 80,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "作為外來者與居民互動的入口緩衝區"
+  },
+  {
+    "Floor": "9F",
+    "Space Name": "社區共食廚房",
+    "Type": "Indoor",
+    "Area(m2)": 150,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "與桌球區共享牆面，活動流轉"
+  },
+  {
+    "Floor": "9F",
+    "Space Name": "桌球區＋運動角",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 100,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "緊鄰廚房，適合飯後使用者聚集"
+  },
+  {
+    "Floor": "9F",
+    "Space Name": "Tree Box（臨廊空間與陽台串接）",
+    "Type": "Outdoor",
+    "Area(m2)": 45,
+    "Semantic Tags": [
+      "視覺串連",
+      "自然通感節點"
+    ],
+    "Semantic Description": "可望見下層綠植空間，與8F樹井連結"
+  },
+  {
+    "Floor": "9F",
+    "Space Name": "親子滑梯連結台",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 65,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "滑梯可通向 8F，形成上下互動平台"
+  },
+  {
+    "Floor": "10F",
+    "Space Name": "坡道環形步道",
+    "Type": "Indoor",
+    "Area(m2)": 130,
+    "Semantic Tags": [
+      "錯層對看"
+    ],
+    "Semantic Description": "環形步道沿邊設置透明欄杆，可觀下方 Tree Box"
+  },
+  {
+    "Floor": "10F",
+    "Space Name": "自然手作教室",
+    "Type": "Indoor",
+    "Area(m2)": 100,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "手作空間與步道共享同一入口"
+  },
+  {
+    "Floor": "10F",
+    "Space Name": "風井Tree Box（通氣／視覺交錯）",
+    "Type": "Outdoor",
+    "Area(m2)": 50,
+    "Semantic Tags": [
+      "視覺串連",
+      "自然通感節點"
+    ],
+    "Semantic Description": "挑空3層，自然通風與陽光連結上下樓"
+  },
+  {
+    "Floor": "11F",
+    "Space Name": "共居起居沙發區",
+    "Type": "Indoor",
+    "Area(m2)": 120,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "作為家庭核心客廳，連接閱讀與 Tree Box"
+  },
+  {
+    "Floor": "11F",
+    "Space Name": "閱讀角＋開窗日照",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 80,
+    "Semantic Tags": [
+      "自然通感節點"
+    ],
+    "Semantic Description": "設於陽光面，提供通風與光照閱讀場域"
+  },
+  {
+    "Floor": "11F",
+    "Space Name": "Tree Box（立體小陽台）",
+    "Type": "Outdoor",
+    "Area(m2)": 40,
+    "Semantic Tags": [
+      "立體包裹"
+    ],
+    "Semantic Description": "從閱讀角延伸出去的平台，可望向10F"
+  },
+  {
+    "Floor": "12F",
+    "Space Name": "留聲機沙龍／放映角",
+    "Type": "Indoor",
+    "Area(m2)": 110,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "與音景陽台相鄰，聲音可自然滲入"
+  },
+  {
+    "Floor": "12F",
+    "Space Name": "音景陽台 Tree Box",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 60,
+    "Semantic Tags": [
+      "轉角穿透",
+      "視覺串連"
+    ],
+    "Semantic Description": "與放映牆背後相通，可聽見音樂與互望"
+  },
+  {
+    "Floor": "12F",
+    "Space Name": "垂直展望綠穴",
+    "Type": "Outdoor",
+    "Area(m2)": 55,
+    "Semantic Tags": [
+      "自然通感節點",
+      "錯層對看"
+    ],
+    "Semantic Description": "可望向13F與11F綠空間"
+  },
+  {
+    "Floor": "13F",
+    "Space Name": "故事牆與共筆書桌",
+    "Type": "Indoor",
+    "Area(m2)": 120,
+    "Semantic Tags": [
+      "社交活動串連"
+    ],
+    "Semantic Description": "使用者共同記錄與書寫，形成記憶核心"
+  },
+  {
+    "Floor": "13F",
+    "Space Name": "展望陽台＋互望樹台 Tree Box",
+    "Type": "Outdoor",
+    "Area(m2)": 70,
+    "Semantic Tags": [
+      "視覺串連"
+    ],
+    "Semantic Description": "面向南側，可見下方層活動、俯瞰音景陽台"
+  },
+  {
+    "Floor": "13F",
+    "Space Name": "靜音露台（與12F視線穿越）",
+    "Type": "Semi-Outdoor",
+    "Area(m2)": 65,
+    "Semantic Tags": [
+      "錯層對看"
+    ],
+    "Semantic Description": "可看見12F音景使用者，保持沉靜但交流可能"
+  }
+]

@@ -1,0 +1,104 @@
+import numpy as np
+from shapely.geometry import Polygon, MultiPolygon, box
+from shapely.ops import unary_union
+import json
+
+# ... (outline, cells, region_score, hex_to_rgb, 格線建立略，照前面程式碼即可)
+
+# (這裡略去 cells, outline, region_score, hex_to_rgb 等內容，直接貼你的舊碼即可)
+
+def largest_rectangle_in_polygon(poly, target_area):
+    """找可用區域內最大可放下、最貼近目標面積的axis-aligned長方形"""
+    minx, miny, maxx, maxy = poly.bounds
+    best_rect = None
+    best_diff = float('inf')
+    for scale in np.arange(1, 1.6, 0.01):
+        width = (target_area)**0.5 * scale
+        height = target_area / width
+        # 以四角掃描（東北、東南、西北、西南）等方向
+        for x0, y0 in [
+            (minx, miny),
+            (maxx - width, miny),
+            (minx, maxy - height),
+            (maxx - width, maxy - height),
+            ((minx + maxx) / 2 - width / 2, (miny + maxy) / 2 - height / 2),
+        ]:
+            rect = box(x0, y0, x0 + width, y0 + height)
+            inter = poly.intersection(rect)
+            if inter.is_empty or inter.area < 1e-2:
+                continue
+            diff = abs(inter.area - target_area)
+            if diff < best_diff and (inter.geom_type == "Polygon" or inter.geom_type == "MultiPolygon"):
+                # 僅允許「一塊」長方形（非多碎片），且盡量完整
+                if inter.geom_type == "Polygon":
+                    best_rect = inter
+                    best_diff = diff
+                elif inter.geom_type == "MultiPolygon":
+                    # 只取最大那一塊
+                    poly_ = max(inter.geoms, key=lambda p: p.area)
+                    if poly_.area > 1e-2:
+                        best_rect = poly_
+                        best_diff = diff
+            if best_diff < 10:
+                break
+        if best_diff < 10:
+            break
+    return best_rect
+
+# 主要分配迴圈（舉例單輪，不做多輪排序優化，可結合你的自動迴圈）
+cell_centers = [cell.centroid.coords[0] for cell in cells]
+output = {}
+area_log = []
+occupied_poly = Polygon()
+
+for idx, (ename, orient, hexcode, target_area) in enumerate(space_defs):
+    available_outline = outline.difference(occupied_poly)
+    # 1. 優先拼格線
+    scores = [(i, region_score(cell_centers[i], orient)) for i in range(len(cells)) if not cells[i].intersection(available_outline).is_empty]
+    scores = sorted(scores, key=lambda t: t[1])
+    chosen = []
+    total_area = 0
+    for i, _ in scores:
+        cell_avail = cells[i].intersection(available_outline)
+        area = cell_avail.area
+        if area > 1e-2 and total_area < target_area and occupied_poly.intersection(cell_avail).area < 1e-5:
+            chosen.append(cell_avail)
+            total_area += area
+        if abs(total_area - target_area) < 10:
+            break
+    union_poly = unary_union(chosen) if chosen else Polygon()
+
+    diff = abs(union_poly.area - target_area)
+    # 2. 若誤差太大或無法拼出，補塊必須用長方形
+    if diff >= 10 or union_poly.is_empty:
+        rect_poly = largest_rectangle_in_polygon(available_outline, target_area)
+        if rect_poly is not None and not rect_poly.is_empty:
+            union_poly = rect_poly
+
+    if union_poly.is_empty or union_poly.area < 1e-2:
+        continue
+    if union_poly.geom_type == "MultiPolygon":
+        poly = max(union_poly.geoms, key=lambda p: p.area)
+    elif union_poly.geom_type == "Polygon":
+        poly = union_poly
+    else:
+        continue
+    # --- 保證polyline點順序無重複、閉合，GH完全能讀 ---
+    coords = list(poly.exterior.coords)
+    if coords[0] != coords[-1]:
+        coords.append(coords[0])
+    pts3d = [[float(x), float(y), 0] for x, y in coords]
+    key = chr(65+idx)
+    color = hex_to_rgb(hexcode)
+    output[key] = {"type": "polyline", "data": {"points": pts3d}}
+    output[f"{key}_color"] = {"type": "color", "data": color}
+    output[f"{key}_function"] = {key: ename}
+    area_log.append((key, ename, target_area, poly.area, poly.area - target_area))
+    occupied_poly = unary_union([occupied_poly, poly])
+
+print("Space,Ideal,Actual,Diff")
+for k, name, ideal, actual, diff in area_log:
+    print(f"{name},{ideal:.2f},{actual:.2f},{diff:.2f}")
+with open('grid7.json', 'w', encoding='utf-8') as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
+print("✅ layout_rectonly.json 產生完成")
