@@ -1,0 +1,24 @@
+{
+  "id": "case_01_casename",
+  "project_name": "",
+  "Gene_A": {
+    "location": "",
+    "site_conditions": "",
+    "functional_needs": "",
+    "cultural_context": ""
+  },
+  "Gene_B": {
+    "issue": "",
+    "concept": "",
+    "strategy": ""
+  },
+  "Gene_C1": ["", "", "", ""],
+  "Gene_C2": [
+    "xxx → xxx → xxx"
+  ],
+  "Gene_D": {
+    "user_behavior": "",
+    "media_feedback": "",
+    "designer_reflection": ""
+  },
+}

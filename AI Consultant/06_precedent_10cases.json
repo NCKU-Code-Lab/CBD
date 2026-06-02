@@ -1,0 +1,442 @@
+{
+  "id": "case_01_guangxi_elderly_home",
+  "project_name": "Guangxi Elderly Housing",
+  "data_sources": ["CASE1-preprocess", "設計理念補充文字"],
+  "Gene_A": {
+    "location": "邊緣城市化區域，鄰近自然保護區與少量開發區",
+    "site_conditions": "基地為丘陵地形，需調和自然落差與城市街道標高",
+    "functional_needs": "為文革時期成長的退休老人提供安心照護與多元活動空間",
+    "cultural_context": "強調回應公社生活記憶，重建世代歸屬感與集體土地意識"
+  },
+  "Gene_B": {
+    "issue": "如何於都市與自然邊界，創造具有集體記憶與歸屬感的高齡空間",
+    "concept": "喚起“公社生活”記憶與土地情感",
+    "strategy": "透過樓板交錯與南向通廊創造垂直空間層次；引入種子庫與自然景觀呼應原始地貌"
+  },
+  "Gene_C1": [
+    "concave corridor", "atrium", "activity room", "rooftop terrace", "colored pond", "garden",
+    "gate ball court", "louvers", "vertical core", "wood-aluminum louver system", "seed bank"
+  ],
+  "Gene_C2": [
+    "Concave Corridor → connects (Circulation Relation) → Activity Rooms",
+    "Garden → integrates with (Spatial Relation) → Dining Hall",
+    "Roof Terrace → overlooks (Perceptual Relation) → Urban Green Zone",
+    "Vertical Core → supports (Functional Relation) → Symmetrical Circulation",
+    "Wood-Aluminum Louver → filters (Environmental Relation) → Sunlight",
+    "Seed Bank → restores (Conceptual Relation) → Local Ecological Memory",
+    "Stacked Floors → bridge (Spatial Relation) → Terrain Difference",
+    "Reception → leads to (Circulation Relation) → Leisure Clusters"
+  ],
+  "Gene_D": {
+    "user_behavior": "高齡者於多層空間中自由參與活動、社交與康養；空間刺激交流與參與",
+    "media_feedback": "（推測）被視為具文化深度與生態回應的示範案例",
+    "designer_reflection": "企圖藉由空間語言重建世代連結與自然情感"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_02_retirement_home_wilder_kaiser",
+  "project_name": "Retirement and Nursing Home Wilder Kaiser",
+  "data_sources": ["CASE2-preprocess", "設計說明補充文字"],
+  "Gene_A": {
+    "location": "Scheffau am Wilden Kaiser, Austria",
+    "site_conditions": "位於三個城鎮交界處，緊鄰既有老舊護理設施，基地為山麓地形，擁有廣闊視野與自然環境",
+    "functional_needs": "整合退休與照護功能，提供高品質居住與照護空間",
+    "cultural_context": "融合當地傳統工藝與現代建築語彙，塑造具歸屬感之養老場域"
+  },
+  "Gene_B": {
+    "issue": "如何在高山環境中提供兼具照護與居住品質的空間，同時結合三城鎮需求",
+    "concept": "整合性社區照護環境，融合傳統與現代，促進交流與個人寧靜",
+    "strategy": "採雙體量建築圍塑中央天井，設置多樣外部空間（如公共花園、失智症花園、兒童遊戲區），於各樓層配置可眺望自然的共享空間"
+  },
+  "Gene_C1": [
+    "apartment",
+    "winter garden",
+    "chapel",
+    "café",
+    "dementia garden",
+    "public garden",
+    "terrace",
+    "cantou",
+    "loggia",
+    "wooden screen",
+    "prefabricated Y-column"
+  ],
+  "Gene_C2": [
+    "Apartment → faces (Perceptual Relation) → Winter Garden",
+    "Café → opens toward (Spatial Relation) → Public Garden",
+    "Dementia Garden → connects to (Functional Relation) → Care Wing",
+    "Winter Garden → links visually (Perceptual Relation) → Multiple Floors",
+    "Cantou → anchors (Functional Relation) → Communal Interaction",
+    "Wooden Screen → shades (Material Relation) → Recessed Balcony",
+    "Loggia → provides (Functional Relation) → Semi-private Outdoor Space"
+  ],
+  "Gene_D": {
+    "user_behavior": "居民可於 Cantou 或冬季花園聚會互動，亦可於各自 Loggia 空間安靜休憩（推測）",
+    "media_feedback": "設計獲得一致好評，特別是其融合當地文化與細膩照護空間品質之能力",
+    "designer_reflection": "強調傳統工藝與環境連結，透過木構件與立面節奏表現建築親和性與在地性（推測）"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+
+{
+  "id": "case_03_shuanglian_welfare_center",
+  "project_name": "雙連新莊社會福利中心",
+  "data_sources": ["CASE3-preprocess", "補充說明文字：設計理念與背景說明"],
+  "Gene_A": {
+    "location": "新莊副都心，新北市，台灣",
+    "site_conditions": "位於副都心核心，基地狹長，需配合都市計畫退縮、防災通道等配置",
+    "functional_needs": "日間照護、復健醫療、社區關懷據點、老人活動空間與人才培訓空間",
+    "cultural_context": "強調社會服務精神，立面設計呼應基督教服事理念"
+  },
+  "Gene_B": {
+    "issue": "高齡化社會對醫療照護與社區支持空間的迫切需求",
+    "concept": "融合照護、療癒與社區交融的多功能設施",
+    "strategy": "退縮量體創造療癒花園與公共視覺軸線，功能分層配置，立面折板與光線引導創造層次感"
+  },
+  "Gene_C1": [
+    "rehabilitation clinic",
+    "multifunction activity room",
+    "day care service",
+    "terrace",
+    "accessible staircase",
+    "vaulted ceiling",
+    "vertical louver",
+    "open stairwell",
+    "cafeteria",
+    "mechanical room"
+  ],
+  "Gene_C2": [
+    "Vertical Louver → filters (Perceptual Relation) → Interior Daylight",
+    "Terrace → connects to (Spatial Relation) → Activity Rooms",
+    "Lobby → opens to (Perceptual Relation) → Garden",
+    "Open Stairwell → links (Circulation Relation) → Split Levels",
+    "Cafeteria → faces (Spatial Relation) → Rooftop Garden",
+    "Accessible Staircase → facilitates (Functional Relation) → Elderly Circulation"
+  ],
+  "Gene_D": {
+    "user_behavior": "長者可在露台栽種花草、進行日間復健與社區互動，空間鼓勵交流與活動（推測）",
+    "media_feedback": "設計呼應信仰精神並融合社福機能，具辨識度與社區代表性（推測）",
+    "designer_reflection": "透過立面造型與材質層次回應服務精神，療癒花園設計強化空間參與感"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_04_fuji_community_nursery",
+  "project_name": "Community Nursery near Mt. Fuji",
+  "data_sources": ["Canvas: CASE4-preprocess", "新增資料：基地敘述與設計理念說明"],
+  "Gene_A": {
+    "location": "郊區，日本山梨縣，可遠眺富士山",
+    "site_conditions": "位於三棟高齡設施之中心，地勢平緩，有部分周邊住家與農地，氣氛安靜偏離城市",
+    "functional_needs": "建立能容納長者、孩童與當地居民的社區交流場所，包含休息、用餐與托育空間",
+    "cultural_context": "反映日本地方社區對高齡與幼兒照護的集體需求，以建築重塑鄰里關係與代間連結"
+  },
+  "Gene_B": {
+    "issue": "需整合多種機能與年齡層，打造真正包容、可達且不封閉的社區共享空間",
+    "concept": "以『大樹下的庇護空間』為靈感，透過屋頂形成多樣的聚集場域",
+    "strategy": "以放射狀配置與曲面屋頂，開展朝向四方的入口，機能空間由中庭統合串聯"
+  },
+  "Gene_C1": [
+    "garden",
+    "lounge",
+    "lunchroom",
+    "nursing room",
+    "office",
+    "portal frame",
+    "LVL rafters",
+    "curved roof",
+    "sand pit",
+    "terrace",
+    "courtyard"
+  ],
+  "Gene_C2": [
+    "Roof → opens toward (Perceptual Relation) → Surrounding Buildings",
+    "Garden → links (Circulation Relation) → Lounge",
+    "Nursing Room → faces (Perceptual Relation) → Garden",
+    "Lunchroom → connects to (Functional Relation) → Lounge",
+    "Portal Frame → defines (Structural Relation) → Room Boundaries",
+    "LVL Rafters → support (Structural Relation) → Curved Roof",
+    "Curved Roof → creates (Perceptual Relation) → Unified Interior Landscape",
+    "Courtyard → gathers (Functional Relation) → Multigenerational Activities",
+    "Entrance → leads into (Circulation Relation) → Central Garden",
+    "Sand pit → activates (Functional Relation) → Children’s Play Zone",
+    "Terrace → transitions (Spatial Relation) → Interior and Garden"
+  ],
+  "Gene_D": {
+    "user_behavior": "孩童在沙坑與庭院活動，長者休息，母親交流，構成活潑而和緩的多代場景",
+    "media_feedback": "建築媒體多讚賞其以結構整合空間、使用在地材料構成詩意與親和感",
+    "designer_reflection": "設計強調包容與多向敞開的社區核心空間，以『大樹』意象形塑共享庇護所"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_05_mayerhof_care_campus",
+  "project_name": "Elderly Care Campus",
+  "data_sources": ["Canvas: CASE5-preprocess", "新增資料：設計理念與基地說明文字"],
+  "Gene_A": {
+    "location": "Mortsel, 比利時",
+    "site_conditions": "基地為都市邊緣的既有養老機構場址，原有設施在施工期間持續運作，新建體量環繞原有建築並釋放出中央綠地",
+    "functional_needs": "整合高齡照護、輔助住宅與社區交誼功能，支持長期居住與照護的彈性環境",
+    "cultural_context": "反思傳統養老設施過於理性與缺乏人味的空間組織，倡導社群性、互動與居家感"
+  },
+  "Gene_B": {
+    "issue": "打破傳統養護機構中走廊-房間的單一機能與社交孤立",
+    "concept": "以『小城市』為原型，在結構秩序中創造生活與社交的豐富性",
+    "strategy": "建築配置呈現∞形平面，形成無盡連續動線並插入開放交誼空間；以多樣立面語彙界定不同機能；地下通道與綠地串聯各棟量體"
+  },
+  "Gene_C1": [
+    "courtyard",
+    "terrace",
+    "void",
+    "corridor",
+    "residential unit",
+    "assisted living block",
+    "underground passage",
+    "common lounge",
+    "atrium",
+    "reflective façade",
+    "green zone"
+  ],
+  "Gene_C2": [
+    "Corridor → folds around (Circulation Relation) → Two Large Voids",
+    "Void → defines (Perceptual Relation) → Central Spatial Orientation",
+    "Terrace → emerges from (Spatial Relation) → Stepped Volume",
+    "Residential Unit → faces (Perceptual Relation) → Courtyard or Landscape",
+    "Underground Passage → connects (Circulation Relation) → Nursing Home and Assisted Living Blocks",
+    "Common Lounge → inserts into (Functional Relation) → Corridor Network",
+    "Reflective Façade → reacts to (Perceptual Relation) → Sunlight and Environment",
+    "Green Zone → embraced by (Spatial Relation) → New Building Volumes"
+  ],
+  "Gene_D": {
+    "user_behavior": "長者在各層露台與交誼空間間移動、互動；社區居民亦可參與公共活動，形塑共融生活節奏（推測）",
+    "media_feedback": "被視為整合都市結構與長照空間的優秀案例，強調其人性化與社群性",
+    "designer_reflection": "重塑照護設施類型學，以小城市結構容納功能與生活，兼顧秩序與自由"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_06_oleiros_nursing_home",
+  "project_name": "The Nursing Home at Oleiros",
+  "data_sources": ["Canvas: CASE6-preprocess", "新增資料：設計理念與專案敘述"],
+  "Gene_A": {
+    "location": "Oleiros, Spain",
+    "site_conditions": "基地受限，條件具挑戰性；需整合照護與公共空間，建築平面需利於導引與避難",
+    "functional_needs": "提供長期照護、共住單元與流暢的日常生活動線；兼顧隔離、適應性與防火規劃",
+    "cultural_context": "回應高齡化需求，創造可適應未來傳染病或功能轉換的照護模型空間"
+  },
+  "Gene_B": {
+    "issue": "如何在受限條件下整合機能、照護與靈活性，提升空間導航與健康安全",
+    "concept": "以「共住單元」為模組，透過清晰可辨的空間路徑與分區構成連續卻安全的照護環境",
+    "strategy": "三個 Living-Units 以公-半公-私邏輯配置，並由採光走廊與公共區域串聯，實現功能分區與導引性"
+  },
+  "Gene_C1": [
+    "entrance hall",
+    "promenade",
+    "light entries",
+    "coliving room",
+    "kitchenette",
+    "visit room",
+    "corridor",
+    "vertical circulation",
+    "individual bedroom",
+    "double bedroom",
+    "walkway",
+    "communal area"
+  ],
+  "Gene_C2": [
+    "Entrance Hall → leads into (Circulation Relation) → Promenade",
+    "Promenade → articulated by (Perceptual Relation) → Light Entries",
+    "Living-Unit → contains (Functional Relation) → Public-Filter-Private Zoning",
+    "Coliving Room → connects to (Spatial Relation) → Kitchenette and Visit Room",
+    "Corridor → links (Circulation Relation) → Bedrooms and Vertical Circulation",
+    "Walkway → bridges (Circulation Relation) → Three Living Units via Communal Areas",
+    "Living-Unit → isolates (Functional Relation) → Specific Zones during Emergency",
+    "Bedrooms → receive light from (Perceptual Relation) → Internal Courtyard (推測)"
+  ],
+  "Gene_D": {
+    "user_behavior": "長者可在 promenade 緩行，並於 coliving 區互動、探訪；空間清楚導引減少迷失（推測）",
+    "media_feedback": "獲得 Breeam Excellence 認證，代表其永續性與空間品質均受肯定",
+    "designer_reflection": "強調『形式與功能合一』，將空間導引與健康設施整合於建築邏輯中"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_07_orbec_nursing_home",
+  "project_name": "Home for Dependent Elderly People and Nursing Home",
+  "data_sources": ["Canvas: CASE7-preprocess", "新增資料：設計理念與基地說明文字"],
+  "Gene_A": {
+    "location": "Orbec, Normandy, France",
+    "site_conditions": "位於丘陵地形，需順應地勢設計；處於鄉村景觀中，具視覺融合需求",
+    "functional_needs": "提供依賴型長者的照護與居住空間，重視日照、通風與通行導引",
+    "cultural_context": "回應鄉村地景與高齡化社會需求，避開醫療機構刻板語彙"
+  },
+  "Gene_B": {
+    "issue": "如何降低大體量建築於鄉村環境中的視覺衝擊，並創造舒適的生活動線",
+    "concept": "以分割量體與自然融合為核心，並透過色彩與穿透感打破醫療空間沉重印象",
+    "strategy": "順應地形曲線設計量體，配置面南街道貫通各單元，運用綠色與紅色強化視覺策略"
+  },
+  "Gene_C1": [
+    "courtyard",
+    "stairwell",
+    "unit",
+    "communal space",
+    "south-facing street",
+    "corridor",
+    "balcony",
+    "open walkway",
+    "overhang",
+    "colored wall"
+  ],
+  "Gene_C2": [
+    "Unit → connects to (Spatial Relation) → South-facing Street",
+    "Corridor → allows (Perceptual Relation) → Views through Building",
+    "Overhang → casts shade on (Material Relation) → White Base Wall",
+    "Red Wall → breaks (Conceptual Relation) → Conventional Spatial Order",
+    "Building → follows (Spatial Relation) → Hillside Curve",
+    "Living Unit → opens to (Perceptual Relation) → Landscape",
+    "Walkway → punctuated by (Perceptual Relation) → Daylight Entry"
+  ],
+  "Gene_D": {
+    "user_behavior": "住民可於南向走廊與中庭間行走、互動，光線與色彩刺激空間感知（推測）",
+    "media_feedback": "強調色彩策略與自然融合的設計獲得高度關注，打破典型照護設施印象",
+    "designer_reflection": "透過『光、色與地形』重新定義照護建築的空間語言與日常經驗"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_08_belleville_nursing_home",
+  "project_name": "Belleville Sara Weill-Raynal Nursing Home Reconstruction and Extension",
+  "data_sources": ["CASE8-preprocess", "新增資料：設計理念與基地說明文字"],
+  "Gene_A": {
+    "location": "Paris, France",
+    "site_conditions": "位於第20區的密集住宅區中，基地受限於街道退縮與鄰里建築高度管制，鄰近為保護綠地。",
+    "functional_needs": "提供符合當代需求的長照空間，包括 94 間獨立衛浴房、社交空間與花園步道，強調長者照護品質與尊嚴。",
+    "cultural_context": "命名紀念社會主義者暨巴黎醫師 Sara Weill-Raynal，延續地區照護文化與社會記憶，並對照護空間偏見進行空間反思。"
+  },
+  "Gene_B": {
+    "issue": "面對高密度都市基地與過往養老機構機能單一、空間壓迫的困境，需提升空間尊嚴與互動性。",
+    "concept": "建立『如家一般』的溫潤空間感，透過材料選擇與空間層次增強尊嚴與都市關聯性。",
+    "strategy": "將建築量體對齊街屋高程，並於上層作退縮以擴充面積；以Kolumba磚與磚編格柵構成立面，形成虛實交錯；內部空間中央設開放用餐與交誼區，並以大型開窗與步道與城市、庭園連結。"
+  },
+  "Gene_C1": [
+    "Kolumba brick façade",
+    "mashrabiya screen",
+    "dining room",
+    "courtyard garden",
+    "recessed balcony",
+    "lounges",
+    "wide corridor",
+    "bench",
+    "sunshade",
+    "private unit with en-suite"
+  ],
+  "Gene_C2": [
+    "Dining Room → connects to (Circulation Relation) → Horizontal Corridor",
+    "Brick Mashrabiya → filters (Perceptual Relation) → Urban Street View",
+    "Courtyard Garden → supports (Functional Relation) → Outdoor Resting and Mobility",
+    "Kolumba Brick Façade → expresses (Conceptual Relation) → Neighborhood Continuity and Dignity",
+    "Sunshade → protects (Material Relation) → Generous Window",
+    "Wide Bench → punctuates (Spatial Relation) → Garden Path",
+    "Recessed Balcony → opens to (Perceptual Relation) → Green View"
+  ],
+  "Gene_D": {
+    "user_behavior": "長者可於花園步道散步、於公共交誼廳活動，使用自主性高，視線穿透促進互動（推測）。",
+    "media_feedback": "被視為對長照空間刻板印象的挑戰，並以建材與空間策略體現尊嚴與設計品質。",
+    "designer_reflection": "設計者希望透過 Kolumba 磚等材質營造『尊貴、沉靜』的照護氛圍，並建立與街區的文化延續性。"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_09_blancafort_center",
+  "project_name": "Day Center and Home for the Elderly of Blancafort",
+  "data_sources": [
+    "CASE9-preprocess",
+    "補充設計說明文字"
+  ],
+  "Gene_A": {
+    "location": "Blancafort, Spain",
+    "site_conditions": "基地座落於村落入口處，周邊為三條街道與公共綠地，原有擋土牆轉化為建築基座。",
+    "functional_needs": "提供長者日間照護中心與長期居住設施，作為村落與周邊社區的社會服務空間。",
+    "cultural_context": "建材選用地方常見的石材與自然素材，並參考在地傳統建築語彙，體現在地文化特色與公共性。"
+  },
+  "Gene_B": {
+    "issue": "需回應場地邊界、地形高差與社區入口定位問題，並整合雙功能設施於單一量體中。",
+    "concept": "轉化邊界與地形成為建築起點，創造雙中庭串聯社區與居住者日常。",
+    "strategy": "設置雙中庭，分別對應日照、景觀與社交需求；結合三街立面開口與地勢順應，形成聚落式介面。"
+  },
+  "Gene_C1": [
+    "internal courtyard",
+    "retaining wall base",
+    "common access core",
+    "landscape view hall",
+    "weathering steel facade",
+    "vegetated zone",
+    "wood and stone finish"
+  ],
+  "Gene_C2": [
+    "Retaining Wall → forms (Material Relation) → Building Base",
+    "Courtyard → separates and connects (Functional Relation) → Day Center and Elderly Home",
+    "Common Access Core → links (Circulation Relation) → Public and Private Wings",
+    "Main Hall → opens to (Perceptual Relation) → Landscape",
+    "Wood Finish → softens (Material Relation) → Concrete Interior",
+    "Facade → opens toward (Perceptual Relation) → Three Street Frontages"
+  ],
+  "Gene_D": {
+    "user_behavior": "長者可於室內庭院與外部景觀區域中散步、交流與休憩，日間照護使用者則於另一庭院進行社交與活動。",
+    "media_feedback": "被視為具備公共性與人性關懷的村落核心建築，強調結合社區與自然環境的設計表現。",
+    "designer_reflection": "以簡潔空間手法整合基地條件與地方建材，提升建築的歸屬感與情感溫度。"
+  },
+  "notes": "",
+  "source": "GPT semantic analysis v1.0"
+}
+{
+  "id": "case_10_hokkori_ya",
+  "project_name": "Elderly House in Rikuzentakata city 'Hokkori-ya'",
+  "data_sources": ["CASE10-preprocess", "補充文字說明：Hokkori-ya project narrative"],
+  "Gene_A": {
+    "location": "Rikuzentakata City, Japan",
+    "site_conditions": "Post-tsunami hillside site (~2ha), minimal land development, southern exposure, surrounded by nature",
+    "functional_needs": "Rental housing with care services for elderly affected by tsunami",
+    "cultural_context": "Post-disaster recovery; collaboration between local welfare foundation and University of Tokyo"
+  },
+  "Gene_B": {
+    "issue": "Lack of elderly housing with care in disaster-affected area; need for community-rooted reconstruction",
+    "concept": "Creation of various places; reconnecting with natural landscape and memory",
+    "strategy": "Southern corridor design, north-facing rooms, internal courtyards, seed bank for ecological restoration, terraced spatial layering"
+  },
+  "Gene_C1": [
+    "courtyard",
+    "dining hall",
+    "lounge",
+    "south-facing corridor",
+    "private room",
+    "wooden structure",
+    "deep eaves",
+    "skylight",
+    "garden path",
+    "seed bank"
+  ],
+  "Gene_C2": [
+    "South-facing corridor → connects (Circulation Relation) → Common spaces",
+    "Living rooms → oriented toward (Spatial Relation) → Northern hillside view",
+    "Courtyard → enclosed by (Spatial Relation) → Circulation and activity spaces",
+    "Skylight → brings daylight into (Perceptual Relation) → Inner lounge area",
+    "Seed bank → integrates with (Conceptual Relation) → Landscape memory restoration strategy"
+  ],
+  "Gene_D": {
+    "user_behavior": "Elderly residents gather in garden paths and lounges; use of open-air corridors encourages informal interaction (推測)",
+    "media_feedback": "Praised for blending disaster recovery with architectural care strategies (推測)",
+    "designer_reflection": "Architectural and landscape design aim to restore memory and comfort in post-disaster context"
+  },
+  "notes": "Strong emphasis on memory, environment, and gentle daily rhythms through material and layout",
+  "source": "GPT semantic analysis v1.0"
+}
+
