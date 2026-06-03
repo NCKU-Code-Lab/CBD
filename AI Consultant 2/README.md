@@ -11,3 +11,5 @@
 ex:在喧囂的都市基地裡如何建立讓高齡者放鬆的空間?
 
 ![fig2](../Docs/AI_consultant_fig2.png)
+
+參考簡報(https://docs.google.com/presentation/d/1RKGtF00JWbuG5knGXd-7fz2K8SxVFXjzlLbp_55t37A/edit?usp=sharing)
